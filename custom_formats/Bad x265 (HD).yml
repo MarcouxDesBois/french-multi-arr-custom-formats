@@ -16,7 +16,7 @@ conditions:
   type: resolution
 - name: Not FR Light HD Teams
   negate: true
-  pattern: x265
+  pattern: FR HD Light Teams
   required: true
   type: release_group
 tests: []
