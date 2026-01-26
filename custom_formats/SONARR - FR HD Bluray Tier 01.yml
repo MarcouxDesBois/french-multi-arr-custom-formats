@@ -9,10 +9,10 @@ conditions:
   source: bluray
   type: source
 - name: Not Remux
-  negate: true
-  qualityModifier: remux
+  type: release_title
   required: true
-  type: quality_modifier
+  negate: true
+  pattern: SONARR - REMUX Title
 - name: Not 2160p
   negate: true
   required: true
