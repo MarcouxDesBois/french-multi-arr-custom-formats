@@ -1,4 +1,4 @@
-name: HD - Best FR Team Multi Audio
+name: 4K (No Remux) - Best FR Team Multi Audio
 description: "This profile ranks releases based on the release team and if they contains\
   \ multiple audio tracks.\n\nIt only contains french teams, so the combo french team\
   \ + multi audio gives almost every time VO audio + VFF audio.\n\nFrench teams tier\
@@ -80,13 +80,19 @@ custom_formats_sonarr:
   score: 2200
 qualities:
 - id: -1
-  name: HD (1080p)
+  name: 4K (2160p-No Remux) - HD (1080p-No Remux)
   description: ''
   qualities:
   - id: 10
     name: Bluray-1080p
-  - id: 8
-    name: Remux-1080p
+  - id: 4
+    name: Bluray-2160p
+  - id: 5
+    name: WEBDL-2160p
+  - id: 6
+    name: WEBRip-2160p
+  - id: 7
+    name: HDTV-2160p
   - id: 9
     name: WEBDL-1080p
   - id: 11
@@ -119,5 +125,5 @@ qualities:
     name: Bluray-576p
 upgrade_until:
   id: -1
-  name: HD (1080p)
+  name: 4K (2160p-No Remux) - HD (1080p-No Remux)
 language: any
